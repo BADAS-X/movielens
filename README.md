@@ -1,15 +1,13 @@
 # movielens
 Un système de recommandation de films minimal (100 lignes de Python) à partir de données anonymisées de notes d'utilisateurs sur des films ([Movielens](https://movielens.org)).
 
-La conférence expliquait à des jeunes de collège et lycée comment recommander des films à des nouveaux utilisateurs à partir de données existantes : « la personne n<sup>o</sup> X a **aimé/pas aimé** le film Y ».
+La conférence expliquait à des jeunes de lycée comment recommander des films à des nouveaux utilisateurs à partir de données existantes : « la personne n<sup>o</sup> X a **aimé/pas aimé** le film Y ».
 
-## Slides de la présentation donnée à Girls Can Code! 2016
+## Slides de la présentation donnée à Polytechnique en 2017
 
-[**Girls Can Code!**](https://gcc.prologin.org) est un stage d'été de programmation pour collégiennes et lycéennes organisé par [l'association Prologin](http://prologin.org) la dernière semaine du mois d'août.
-
-Pour voir les slides, cliquez ci-dessous :
-
-[![Slides de la présentation](figures/slides.png)](https://github.com/mangaki/research/blob/gh-pages/public/gcc.pdf)
+Le [Binet Algorithmes et DAta Science](https://www.badas.io/) a organisé un atelier Python pour
+les lycéens du programme [Une Grande Ecole Pourquoi Pas moi ?](https://www.polytechnique.edu/fr/egalite-des-chances-dans-leducation) de l'École polytechnique.
+Pour voir les slides, cliquez [ici](https://www.badas.io/static/slides%20GEPPM.pdf).
 
 ## Usage
 
@@ -18,7 +16,7 @@ Téléchargez l'archive ou clonez le repo puis :
     cd code
     python3 reco.py
 
-Les slides sont faites avec ``pandoc``, dans le document ``gcc.md``. Pour les compiler, faites : ``make``.
+Les slides sont faites avec ``pandoc``, dans le document ``slides.md``. Pour les compiler, faites : ``make``.
 
 ## Exemple
 
