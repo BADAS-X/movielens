@@ -1,6 +1,6 @@
 % Systèmes de recommandation
-% Jill-Jênn Vie
-% 26 août 2016
+% Louis Abraham
+% 29 novembre 2017
 ---
 lang: french
 babel-lang: french
@@ -160,36 +160,24 @@ $prediction(\textnormal{Alice}, \textnormal{Star Wars 4}) =$ 0,333…
 
 - Division par zéro lorsqu'aucun voisin n'a vu le film
 
-# Une petite anecdote
+# Un grand merci à [Jill-Jênn Vie](http://jill-jenn.net/)
 
-> - Le 2 octobre 2006, Netflix a lancé un concours :  
-*Le premier qui bat notre algorithme de plus de 10 % remportera 1 million de dollars.*  
-et ont filé des données anonymisées
-> - La moitié de la communauté en IA s'est jetée sur le problème
-> - Le 8 octobre, quelqu'un a battu Cinematch
-> - Le 15 octobre, 3 équipes l'avaient battu, dont 1 de 1,06 %
-> - Le 26 juin 2009, une équipe \no 1 bat Cinematch de 10,05 %  
-$\rightarrow$ \alert{last call} : plus qu'un mois pour gagner
-> - Le 25 juillet 2009, une \alert{équipe \no 2} bat Cinematch de 10,09 %
-> - L'équipe \no 1 fait 10,09 % aussi
-> - 20 minutes plus tard \alert{l'équipe \no 2} fait 10,10 %
-> - … En fait, les deux équipes étaient ex \ae quo sur le sous-ensemble de validation
-> - … Du coup c'est la première équipe à envoyer ses résultats qui a gagné (équipe 1, 10,09 %)
+- Auteur de cet atelier
+- Créateur de [Mangaki](https://mangaki.fr/) et [Girls Can Code](https://gcc.prologin.org/)
+- Ex-président de [Prologin](https://prologin.org/)
+- Chercheur à RIKEN AIP (Tokyo)
+- Auteur du livre Programmation Efficace
+- Pianiste du [Trio Elm](http://trioelm.com/)
 
-# Confidentialité des utilisateurs
-
-> - Août 2009, Netflix annonce une saison 2
-> - Entre-temps, en 2007 deux chercheurs de l'université du Texas ont été capables d'\alert{identifier} les utilisateurs du jeu de données anonymisées en croisant les données avec IMDb
-> - (année approximative de naissance, code postal, films vus)
-> - En décembre 2009, 4 utilisateurs de Netflix ont attaqué Netflix en justice
-> - Mars 2010, arrangement à l'amiable, la plainte est close
-
-\pause
-
-## Sujet de recherche
-
-Faire de la recommandation qui respecte la \alert{confidentialité} des utilisateurs
-
-# Merci de votre attention !
-
-Et bon appétit :-)
+\begin{columns}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=\linewidth]{figures/prologin.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=\linewidth]{figures/vie-duerr.jpg}
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=\linewidth]{figures/trioelm.png}\hfill
+\includegraphics[width=\linewidth]{figures/mangaki.png}\hfill
+\end{column}
+\end{columns}
